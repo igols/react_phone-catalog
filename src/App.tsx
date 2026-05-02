@@ -1,21 +1,17 @@
-import React from 'react';
 import './App.scss';
+import { Body } from './layout/Body/Body';
+import { Footer } from './layout/Footer/Footer';
+import { Header } from './layout/Header/Header';
+import { useTheme } from './context/ThemeContext';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+export const App = () => {
+  const { theme } = useTheme();
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
-
-export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className={`App theme-${theme}`}>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 };
