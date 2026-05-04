@@ -1,5 +1,8 @@
 # Product Catalog (Nice Gadgets) 📱💻
 
+## 🔗 Live Demo
+[View the Project Live](https://igols.github.io/react_phone-catalog/)
+
 A modern, full-featured e-commerce application for gadgets, including smartphones, tablets, and accessories. This project is built with a focus on performance, scalability, and a seamless user experience.
 
 ## ✨ Key Features
@@ -22,7 +25,7 @@ A modern, full-featured e-commerce application for gadgets, including smartphone
 
 ## 📦 Installation and Setup
 1. Clone the repository:
-   git clone https://github.com/igols/phone-catalog-mate.git
+   git clone https://github.com/igols/react_phone-catalog.git
 2. Navigate to the project directory:
    cd react_phone-catalog
 3. Install dependencies:
